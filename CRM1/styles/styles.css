@@ -1,0 +1,145 @@
+
+table {
+
+
+
+    border-collapse: collapse;
+  
+  
+  
+    border-spacing: 0;
+  
+  
+  
+    width: 500px;
+  
+  
+  
+    border: 1px solid #ddd;
+
+    
+    
+  }
+  
+   
+  th, td {
+    text-align: left;
+  
+  
+  
+    padding: 20px;
+  
+  
+  
+    border-width: 1px;
+  
+  
+  
+    border-style: solid;
+  
+  
+  
+    border-color: #8181815e;
+  
+  
+  
+   
+  
+  
+  
+  }
+  
+  
+  
+   
+  
+  
+  
+  tr:nth-child(even){background-color: #fff1f1}
+  
+  
+  
+   
+  
+  
+  
+  .add{
+  
+  
+  
+      margin-bottom: 5px;
+  
+  
+  
+      background-color:rgba(0,150,136,255) ;
+  
+  
+
+
+  
+      margin-left: 300px;
+  
+  
+  
+       padding: 2px ;
+  
+  
+  
+        padding-right: 25.8px;
+  
+  
+  
+         cursor: default;
+  
+  
+  
+   
+  
+  
+  
+  }
+  
+  
+  
+  .addcust{
+  
+
+  
+  
+      background-color:rgba(0,150,136,255) ;
+  
+  
+  
+      margin-bottom: 50px;
+  
+  
+  
+       padding: 2px ;
+  
+  
+  
+       padding-right: 25.8px;
+  
+  
+  
+        cursor: default;
+  
+  
+  
+  }
+
+  .button-btn1{
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

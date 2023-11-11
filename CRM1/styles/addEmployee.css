@@ -1,0 +1,109 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+  }
+ 
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+ 
+  /* Form styles */
+ 
+  #title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+ 
+  #description {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+ 
+  fieldset {
+    border: none;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+ 
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+ 
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+ 
+  select {
+    appearance: none;
+    padding-right: 30px;
+   
+  }
+ 
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+ 
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+ 
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+ 
+  div {
+    background: grey;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    margin-top: 1%;
+  }
+ 
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 500px;
+    }
+  }
+ 
+  @media screen and (max-width: 480px) {
+    .container {
+      max-width: 300px;
+    }
+  }
+  .form_emp
+  {
+    margin-left: 50px;
+  }
